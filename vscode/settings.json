@@ -1,0 +1,80 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "redhat.telemetry.enabled": false,
+    "terminal.external.linuxExec": "fish",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "fish": {
+            "path": "fish"
+        }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [
+        79
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[yaml]":  {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced"
+    },
+    "debug.onTaskErrors": "abort",
+    "files.associations": {
+        "*.yaml": "yaml",
+        "*.yml": "yaml",
+        "*.j2": "jinja-html"
+    },
+    "explorer.confirmDelete": false,
+    "terminal.integrated.profiles.osx": {
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        }
+    },
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "go.toolsManagement.autoUpdate": true,
+    "githubPullRequests.fileListLayout": "tree",
+    "remote.SSH.enableRemoteCommand": true,
+    "githubPullRequests.pullBranch": "never",
+    "notebook.output.textLineLimit": 100,
+    "terminal.integrated.scrollback": 5000,
+    "settingsSync.ignoredExtensions": [
+        "perseus.vscode-yandex-arc"
+    ],
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "svg.preview.mode": "svg",
+    "editor.wrappingIndent": "none",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "plantuml.render": "PlantUMLServer",
+    "[jinja-html]": {
+        "editor.tabSize": 2
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "codeium.enableCodeLens": false,
+    "workbench.startupEditor": "none",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "makefile.configureOnOpen": true
+}
