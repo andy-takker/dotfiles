@@ -5,7 +5,7 @@
 ## fish
 
 ```bash
-cp -R fish ~/.conf/
+cp -R fish ~/.config/
 ```
 
 ## Fonts
